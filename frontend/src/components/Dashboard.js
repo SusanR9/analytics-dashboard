@@ -5,7 +5,7 @@ import Filters from "./Filters";
 import Pagination from "./Pagination";
 import Charts from "./Charts";
 
-const API_URL = "http://127.0.0.1:8001/api/records/"; // make sure this URL exists
+const API_URL = "https://analytics-dashboard-zmwk.onrender.com/api/records/"; // make sure this URL exists
 
 function Dashboard() {
   const [data, setData] = useState([]);

@@ -23,8 +23,18 @@ function Charts({ data }) {
       return acc;
     }, {})
   );
+const groupedData = {
+  Tech: 0,
+  Food: 0,
+  Clothing: 0
+};
 
-  const COLORS = ["#4e73df", "#1cc88a", "#f6c23e"];
+data.forEach(item => {
+  if (groupedData[item.category] !== undefined) {
+    groupedData[item.category] += item.amount;
+  }
+});
+  const COLORS = ["#dfce4e", "#041042", "#7f0c40"];
 
   if (categoryData.length === 0) {
     return <p>No chart data available</p>;
