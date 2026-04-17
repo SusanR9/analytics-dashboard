@@ -9,6 +9,9 @@ https://docs.djangoproject.com/en/6.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.0/ref/settings/
 """
+print("DB HOST:", DATABASES['default']['HOST']) # type: ignore
+print("DB PORT:", DATABASES['default']['PORT']) # type: ignore
+
 import pymysql # type: ignore
 pymysql.install_as_MySQLdb()
 from pathlib import Path
