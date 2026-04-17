@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
         'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'analyticsdsh_db',
-        'USER': 'analyticsdsh_user',
-        'PASSWORD': 'Db@123456',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': 'gAcQoqqOTbMandPNVfitZuSNKbAfnhII',
+        'HOST': 'nozomi.proxy.rlwy.net',
+        'PORT': '36346',                  # ✅ from your URL
     }
     }
 
