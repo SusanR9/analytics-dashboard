@@ -1,0 +1,118 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #becfe5;
+  color: rgb(7, 0, 0);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+}
+
+/* KPI Cards */
+.kpi-card {
+  background: #090909;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  border-top: 4px solid #f39c12;
+}
+
+.kpi-card h3 {
+  margin: 5px 0;
+  font-size: 28px;
+}
+
+.kpi-card p {
+  color: #ccc;
+  margin: 0;
+}
+
+/* Section cards */
+.section-card {
+  background: #c9d9e9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* Titles */
+h2 {
+  font-weight: bold;
+}
+
+h5 {
+  color: #f39c12;
+}
+
+/* Table */
+.table {
+  color: rgb(14, 10, 10);
+  border: #2c3e50;
+}
+
+.table th {
+  background: #4a91e2;
+}
+
+/* Pagination */
+.pagination {
+  justify-content: center;
+}
+
+/* Inputs */
+input, select {
+  background: #393d40;
+  color: white;
+  border: none;
+}
+/* Full screen layout */
+.dashboard-container {
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+/* KPI */
+.kpi-card {
+  background: #f0b75b;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Sections */
+.section-card {
+  background: #2c3e50;
+  border-radius: 8px;
+  padding: 10px;
+  height: 320px; /* fixed */
+}
+
+
+/* Table scroll INSIDE (not page) */
+.table-box {
+  overflow-y: auto;
+}
+
+/* Chart sizing */
+.chart-box {
+  height: 320px;
+}
+
+
+div::-webkit-scrollbar {
+  width: 6px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+body {
+  overflow-y: auto;
+}
